@@ -18,4 +18,4 @@ $git checkout api-1_2
 $python setup.py install
 $export PYTHONPATH=<desired_location>/python-fitbit
 
-2. Register for a (fake) app on Fitbit. Go to the `Fitbit dev website <dev.fitbit.com >`_. Hover over "Manage" and click on "Register An App."" The OAuth 2.0 Application Type is "personal" and the Callback URL is ``http://127.0.0.1:8080/``. All other fields don't really matter. Take note of your ``CLIENT_ID`` and ``CLIENT_SECRET``.
+2. Register for a (fake) app on Fitbit. Go to the `Fitbit dev website <dev.fitbit.com>`_. Hover over "Manage" and click on "Register An App."" The OAuth 2.0 Application Type is "personal" and the Callback URL is ``http://127.0.0.1:8080/``. All other fields don't really matter. Take note of your ``CLIENT_ID`` and ``CLIENT_SECRET``.
